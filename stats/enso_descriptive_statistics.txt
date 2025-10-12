@@ -1,7 +1,7 @@
 ================================================================================
 ENSO NINO 3.4 INDEX - COMPREHENSIVE DESCRIPTIVE STATISTICS
 ================================================================================
-Generated: 2025-10-11 23:52:27
+Generated: 2025-10-12 02:59:43
 Authors: Sandy H. S. Herho, Rusmawan Suwarman, Edi Riawan, Nurjanna J. Trilaksono
 Institution: Weather and Climate Prediction Laboratory (WCPL) ITB
 ================================================================================
