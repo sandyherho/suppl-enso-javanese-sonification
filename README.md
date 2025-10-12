@@ -14,24 +14,6 @@
 
 This repository contains supplementary materials for the manuscript on sonifying El Niño-Southern Oscillation (ENSO) dynamics using traditional Javanese gamelan scales. The project transforms 155 years of Niño 3.4 index data (1870-2024) into musical compositions using Pelog and Slendro scales, with subsequent analysis of the musical characteristics and phase space dynamics.
 
-## Repository Structure
-
-```
-.
-├── input_data/
-│   └── nino34_hadisst_mon_1870_2024.csv    # ENSO Niño 3.4 index (1870-2024)
-├── script/
-│   ├── enso_descriptive_stats.py           # Statistical analysis of ENSO data
-│   ├── enso_sonification.py                # Multi-scale gamelan sonification
-│   ├── enso_ts_plot.py                     # Time series visualization
-│   ├── music_characterization.py           # Musical feature extraction
-│   ├── music_state_ts_analysis.py          # State variable time series
-│   └── phase_space_analysis.py             # Phase space trajectory analysis
-├── stats/                                   # Statistical reports and metrics
-├── figs/                                    # Generated figures
-├── output_data/                             # State variables (CSV)
-└── music_outputs/                           # MIDI and WAV files (see OSF)
-```
 
 ## Data
 
@@ -39,7 +21,7 @@ This repository contains supplementary materials for the manuscript on sonifying
 Direct download: https://psl.noaa.gov/data/timeseries/monthly/NINO34/nino34.long.data  
 Source webpage: https://psl.noaa.gov/data/timeseries/month/DS/Nino34/
 
-**Musical Sonification Outputs (MIDI & WAV):** Available at OSF: [https://osf.io/_____/](https://osf.io/_____/)
+**Musical Sonification Outputs (MIDI & WAV):** Available at OSF: https://doi.org/10.17605/OSF.IO/QY82M
 
 ## Methodology
 
@@ -212,28 +194,20 @@ If you use this code or data, please cite:
 @article{herho2025enso,
   title={Preliminary sonification of {ENSO} dynamics using traditional {Javanese} gamelan scales},
   author={Herho, Sandy H. S. and Suwarman, Rusmawan and Trilaksono, Nurjanna J.},
-  journal={[Journal Name]},
-  year={2025},
-  volume={[Volume]},
-  pages={[Pages]},
-  doi={10.17605/OSF.IO/_____}
+  journal={xxx},
+  year={202x},
+  volume={xxx},
+  pages={xxx},
+  doi={xxxx}
 }
 ```
 
 ## Authors
 
 **Sandy H. S. Herho**, **Rusmawan Suwarman**, **Nurjanna J. Trilaksono**  
-Weather and Climate Prediction Laboratory (WCPL)  
-Institut Teknologi Bandung, Indonesia
+
 
 ## License
 
 WTFPL - Do What The F*** You Want To Public License
 
-## Acknowledgments
-
-ENSO data provided by NOAA Physical Sciences Laboratory (HadISST 1.1 dataset).
-
----
-
-**Musical Sonification Files (MIDI & WAV):** [https://osf.io/_____/](https://osf.io/_____/)
