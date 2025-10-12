@@ -1,4 +1,4 @@
-# Supplementary Materials: Preliminary sonification of ENSO dynamics using traditional Javanese gamelan scales
+# Supplementary Materials: Preliminary sonification of ENSO using traditional Javanese gamelan scales
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-1.21%2B-013243.svg)](https://numpy.org/)
@@ -192,7 +192,7 @@ If you use this code or data, please cite:
 
 ```bibtex
 @article{herho2025enso,
-  title={Preliminary sonification of {ENSO} dynamics using traditional {Javanese} gamelan scales},
+  title={Preliminary sonification of {ENSO} using traditional {Javanese} gamelan scales},
   author={Herho, Sandy H. S. and Suwarman, Rusmawan and Trilaksono, Nurjanna J.},
   journal={xxx},
   year={202x},
