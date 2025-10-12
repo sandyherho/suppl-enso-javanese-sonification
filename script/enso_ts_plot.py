@@ -102,7 +102,7 @@ def create_timeseries_plot(dates, enso_data, output_file):
     ax.tick_params(axis='both', which='minor', length=3, width=1)
     
     plt.tight_layout()
-    plt.savefig(output_file, dpi=500, bbox_inches='tight', facecolor='white')
+    plt.savefig(output_file, dpi=350, bbox_inches='tight', facecolor='white')
     plt.close()
     print(f"  Saved: {output_file.name}")
 

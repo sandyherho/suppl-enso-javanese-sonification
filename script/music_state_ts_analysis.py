@@ -175,7 +175,7 @@ def create_timeseries_plot(modes, variable, scale_name, output_file):
         ax.tick_params(axis='both', which='major', labelsize=10)
     
     plt.tight_layout()
-    plt.savefig(output_file, dpi=500, bbox_inches='tight', facecolor='white')
+    plt.savefig(output_file, dpi=350, bbox_inches='tight', facecolor='white')
     plt.close()
     
     print(f"  Saved: {output_file.name}")

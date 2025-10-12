@@ -248,7 +248,7 @@ def create_phase_space_plot(modes, scale_name, output_file):
         ax.tick_params(axis='both', which='major', labelsize=10)
     
     plt.tight_layout()
-    plt.savefig(output_file, dpi=300, bbox_inches='tight', facecolor='white')
+    plt.savefig(output_file, dpi=350, bbox_inches='tight', facecolor='white')
     plt.close()
     
     print(f"  Saved: {output_file.name}")
