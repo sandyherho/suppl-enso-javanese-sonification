@@ -5,16 +5,11 @@ enso_sonification.py
 ENSO Nino 3.4 Index Javanese Gamelan Sonification
 ==================================================
 
-STRATEGIC IMPROVEMENTS FOR INFORMATION PRESERVATION:
-
-1. INCREASED DYNAMIC RANGE (Main improvement)
-   - Original: 5 scale degrees across 1 octave = 5 unique pitches
-   - Improved: 5 scale degrees across 2 octaves = 10 unique pitches
-   - This DOUBLES the information capacity without changing aesthetics
-
+1. DYNAMIC RANGE
+   - 5 scale degrees across 2 octaves = 10 unique pitches
+   
 2. FINER VALUE-TO-PITCH MAPPING
-   - Original: Rounded to nearest integer scale degree
-   - Improved: Use floating-point position, round at final step
+   - Use floating-point position, round at final step
    - Preserves more information during calculation
 
 3. TEMPORAL RESOLUTION MAINTAINED
@@ -26,9 +21,6 @@ STRATEGIC IMPROVEMENTS FOR INFORMATION PRESERVATION:
    - Encode both magnitude AND rate of change
    - Previous value influences current velocity
    - Captures more temporal dynamics
-
-Expected improvement: 5-10x better information preservation
-(from ~1-2% to ~10-15%) while keeping authentic Javanese sound.
 
 Nino 3.4 Index:
     Sea Surface Temperature anomaly in the Nino 3.4 region (5N-5S, 170-120W)
