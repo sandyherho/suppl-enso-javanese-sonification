@@ -1,0 +1,118 @@
+# ENSO Sonification Output Files
+# ================================
+
+# Music output directory
+music_outputs/
+*.mid
+*.midi
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# Figures and visualizations
+figs/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Statistics and analysis
+stats/
+*.txt
+*.log
+
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.env.local
+.env.*.local
+
+# IDEs
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Operating System
+# ================================
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+
+# Project specific
+# ================================
+# Keep input data but ignore processed versions
+input_data/*_processed.csv
+input_data/*_temp.csv
+
+# Temporary files
+temp/
+tmp/
+cache/
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Backup files
+*.bak
+*.backup
+*~
