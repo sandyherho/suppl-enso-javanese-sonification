@@ -40,7 +40,7 @@ Javanese Scales:
     Pelog: C - Db - Eb - G - Ab (intervals: 0, 1, 3, 7, 8)
     Slendro: C - D - Eb - G - A (intervals: 0, 2, 3, 7, 9)
 
-Authors: Sandy H. S. Herho, Rusmawan Suwarman, Edi Riawan, Nurjanna J. Trilaksono
+Authors: Sandy H. S. Herho, Rusmawan Suwarman, Nurjanna J. Trilaksono
 Institution: Weather and Climate Prediction Laboratory (WCPL) ITB
 Date: 10/12/2025
 License: WTFPL

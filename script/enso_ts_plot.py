@@ -22,7 +22,7 @@ from matplotlib.dates import YearLocator, DateFormatter
 INPUT_DIR = Path('../input_data')
 FIGS_DIR = Path('../figs')
 INPUT_FILE = INPUT_DIR / 'nino34_hadisst_mon_1870_2024.csv'
-OUTPUT_FILE = FIGS_DIR / 'fig0_enso_timeseries.png'
+OUTPUT_FILE = FIGS_DIR / 'fig_enso_timeseries.png'
 
 
 def load_enso_data(filepath):
@@ -57,9 +57,9 @@ def create_timeseries_plot(dates, enso_data, output_file):
     
     # Fill El Nino and La Nina regions
     ax.fill_between(dates_dt, 0, enso_data, where=(enso_data >= 0.5),
-                     color=el_nino_color, alpha=0.25, label='El Nino', zorder=2)
+                     color=el_nino_color, alpha=0.25, label='El Niño', zorder=2)
     ax.fill_between(dates_dt, 0, enso_data, where=(enso_data <= -0.5),
-                     color=la_nina_color, alpha=0.25, label='La Nina', zorder=2)
+                     color=la_nina_color, alpha=0.25, label='La Niña', zorder=2)
     
     # Main time series line
     ax.plot(dates_dt, enso_data, color=line_color, linewidth=1.5, alpha=0.9, zorder=3)
@@ -69,7 +69,7 @@ def create_timeseries_plot(dates, enso_data, output_file):
     if np.any(extreme_mask):
         ax.scatter(dates_dt[extreme_mask], enso_data[extreme_mask], 
                   s=60, c='red', alpha=0.8, zorder=4, marker='o', 
-                  edgecolors='darkred', linewidths=1.5, label='Extreme Events (|T| >= 2C)')
+                  edgecolors='darkred', linewidths=1.5, label='Extreme Events (|T| >= 2°C)')
     
     # Axis styling
     ax.set_xlabel('Year [C.E.]', fontsize=14, fontweight='600')
@@ -109,7 +109,7 @@ def create_timeseries_plot(dates, enso_data, output_file):
 
 def main():
     print("\n" + "="*70)
-    print("FIGURE 0: ENSO TIME SERIES")
+    print("FIGURE ENSO TIME SERIES")
     print("="*70 + "\n")
     
     FIGS_DIR.mkdir(exist_ok=True)
