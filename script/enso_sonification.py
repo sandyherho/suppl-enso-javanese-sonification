@@ -195,18 +195,10 @@ def perform_spectral_analysis(data):
 def nino34_to_gamelan_note(value, scale_type='pelog', octave=BASE_OCTAVE):
     """
     Map Nino 3.4 value to Javanese gamelan scale.
-    
-    KEY IMPROVEMENT: Use 2 octaves instead of 1 for doubled information capacity.
-    
-    Original approach:
-      - 5 scale degrees × 1 octave = 5 unique pitches
-      - Information capacity: log2(5) = 2.32 bits
-    
+     
     Improved approach:
       - 5 scale degrees × 2 octaves = 10 unique pitches
-      - Information capacity: log2(10) = 3.32 bits
-      - 43% more information with same Javanese sound
-    
+      
     Args:
         value: ENSO anomaly value (-3 to +3°C)
         scale_type: 'pelog' or 'slendro'
@@ -259,7 +251,7 @@ def calculate_velocity(current_val, previous_val=None, base_velocity=80):
     """
     Calculate MIDI velocity with improved dynamics encoding.
     
-    IMPROVEMENT: Combine magnitude AND rate of change
+    Combine magnitude AND rate of change:
     - Magnitude: How far from zero (El Niño/La Niña strength)
     - Rate of change: How quickly ENSO is evolving
     - Together: More expressive and informative
@@ -528,7 +520,6 @@ def main():
     
     print("\n" + "="*70)
     print("ENSO NINO 3.4 JAVANESE GAMELAN SONIFICATION")
-    print("Improved Information Preservation (2-octave range)")
     print("="*70)
     print("Weather and Climate Prediction Laboratory (WCPL) ITB\n")
     
@@ -584,26 +575,6 @@ def main():
     
     if wav_count == 0:
         print("  FluidSynth not available, skipping WAV conversion")
-    
-    print("\n" + "="*70)
-    print("IMPROVEMENTS MADE")
-    print("="*70)
-    print("\n1. Extended pitch range: 2 octaves (10 pitches) vs 1 octave (5 pitches)")
-    print("   - Information capacity: 3.32 bits vs 2.32 bits")
-    print("   - 43% increase in pitch information")
-    
-    print("\n2. Improved velocity encoding:")
-    print("   - Combines magnitude + rate of change")
-    print("   - Captures more temporal dynamics")
-    
-    print("\n3. Finer value-to-pitch mapping:")
-    print("   - Preserves floating-point precision until final rounding")
-    print("   - Reduces quantization error")
-    
-    print("\n4. Expected improvement:")
-    print("   - Information preservation: 8-15% (vs 0.6-2.4% before)")
-    print("   - Still maintains authentic Javanese gamelan sound")
-    print("   - Uses only pentatonic scale degrees")
     
     print("\n" + "="*70)
     print("COMPLETE")
