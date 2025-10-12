@@ -1,0 +1,9 @@
+Mode,Scale,Composition,Status,Pitch_Entropy_bits,Velocity_Entropy_bits,Sample_Entropy,Approx_Entropy,Perm_Entropy,Spectral_Entropy,MI_ENSO_Pitch_bits,NMI_ENSO_Pitch,MI_ENSO_Velocity_bits,Info_Preservation_percent
+pelog_layered,Pelog,Layered,Success,2.506456,4.546795,0.050799,0.178931,0.132084,0.019552,0.102677,0.027495,0.112394,2.39
+pelog_alternating,Pelog,Alternating,Success,2.188120,3.910589,0.064893,0.165411,0.320934,0.031026,0.078666,0.023956,0.081155,1.83
+pelog_melodic,Pelog,Melodic,Success,1.345092,4.169197,0.065371,0.194377,0.131425,0.013385,0.041947,0.014262,0.092810,0.98
+pelog_spectral,Pelog,Spectral,Success,2.912319,3.140026,0.075341,0.243590,0.410469,0.024425,0.069400,0.018393,0.053694,1.62
+slendro_layered,Slendro,Layered,Success,2.249374,4.546795,0.018830,0.077979,0.132635,0.020132,0.086292,0.023931,0.112394,2.01
+slendro_alternating,Slendro,Alternating,Success,2.199076,3.910589,0.064504,0.163671,0.322433,0.033185,0.088070,0.026776,0.081155,2.05
+slendro_melodic,Slendro,Melodic,Success,0.850121,4.169197,0.022902,0.080099,0.132793,0.014677,0.027200,0.010097,0.092810,0.63
+slendro_spectral,Slendro,Spectral,Success,2.841396,3.140026,0.075341,0.243590,0.410469,0.023588,0.066376,0.017758,0.053694,1.55

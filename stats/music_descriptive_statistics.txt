@@ -1,0 +1,130 @@
+====================================================================================================
+MUSIC ANALYSIS - COMPREHENSIVE DESCRIPTIVE STATISTICS
+====================================================================================================
+Generated: 2025-10-12 01:49:20
+Authors: Sandy H. S. Herho, Rusmawan Suwarman, Edi Riawan, Nurjanna J. Trilaksono
+Institution: Weather and Climate Prediction Laboratory (WCPL) ITB
+====================================================================================================
+
+DATASET OVERVIEW
+----------------------------------------------------------------------------------------------------
+Total modes analyzed:              8
+Successfully analyzed:             8
+Failed analyses:                   0
+Modes with WAV files:              8
+
+
+ENTROPY STATISTICS ACROSS ALL MODES
+----------------------------------------------------------------------------------------------------
+
+Shannon Entropy - Pitch [bits]
+  Mean:           2.1365
+  Median:         2.2242
+  Std Dev:        0.6648
+  Min:            0.8501
+  Max:            2.9123
+  Range:          2.0622
+
+Shannon Entropy - Velocity [bits]
+  Mean:           3.9417
+  Median:         4.0399
+  Std Dev:        0.5152
+  Min:            3.1400
+  Max:            4.5468
+  Range:          1.4068
+
+Sample Entropy [dimensionless]
+  Mean:           0.0547
+  Median:         0.0647
+  Std Dev:        0.0209
+  Min:            0.0188
+  Max:            0.0753
+
+Approximate Entropy [dimensionless]
+  Mean:           0.1685
+  Median:         0.1722
+  Std Dev:        0.0593
+  Min:            0.0780
+  Max:            0.2436
+
+
+INFORMATION COUPLING WITH ENSO
+----------------------------------------------------------------------------------------------------
+
+Mutual Information (ENSO, Pitch) [bits]
+  Mean:           0.0701
+  Median:         0.0740
+  Std Dev:        0.0234
+  Min:            0.0272
+  Max:            0.1027
+
+Normalized Mutual Information [0-1]
+  Mean:           0.0203
+  Median:         0.0212
+  Std Dev:        0.0058
+  Min:            0.0101
+  Max:            0.0275
+
+Information Preservation [%]
+  Mean:             1.63%
+  Median:           1.72%
+  Std Dev:          0.54%
+  Min:              0.63%
+  Max:              2.39%
+
+
+COMPARISON BY GAMELAN SCALE
+----------------------------------------------------------------------------------------------------
+
+Pelog Scale:
+  Number of modes:                   4
+  Average MI (ENSO, Pitch):          0.0732 bits
+  Average Information Preservation:  1.70%
+
+Slendro Scale:
+  Number of modes:                   4
+  Average MI (ENSO, Pitch):          0.0670 bits
+  Average Information Preservation:  1.56%
+
+
+COMPARISON BY COMPOSITION TYPE
+----------------------------------------------------------------------------------------------------
+
+Layered:
+  Number of modes:                   2
+  Average MI (ENSO, Pitch):          0.0945 bits
+  Average Information Preservation:  2.20%
+
+Alternating:
+  Number of modes:                   2
+  Average MI (ENSO, Pitch):          0.0834 bits
+  Average Information Preservation:  1.94%
+
+Melodic:
+  Number of modes:                   2
+  Average MI (ENSO, Pitch):          0.0346 bits
+  Average Information Preservation:  0.81%
+
+Spectral:
+  Number of modes:                   2
+  Average MI (ENSO, Pitch):          0.0679 bits
+  Average Information Preservation:  1.58%
+
+
+RANKING BY INFORMATION PRESERVATION
+----------------------------------------------------------------------------------------------------
+
+Rank   Mode                           MI [bits]    Preservation [%]
+----------------------------------------------------------------------------------------------------
+1      pelog_layered                    0.1027          2.39
+2      slendro_alternating              0.0881          2.05
+3      slendro_layered                  0.0863          2.01
+4      pelog_alternating                0.0787          1.83
+5      pelog_spectral                   0.0694          1.62
+6      slendro_spectral                 0.0664          1.55
+7      pelog_melodic                    0.0419          0.98
+8      slendro_melodic                  0.0272          0.63
+
+====================================================================================================
+END OF DESCRIPTIVE STATISTICS
+====================================================================================================

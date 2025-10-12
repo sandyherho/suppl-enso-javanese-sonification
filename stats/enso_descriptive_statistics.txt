@@ -1,0 +1,307 @@
+================================================================================
+ENSO NINO 3.4 INDEX - COMPREHENSIVE DESCRIPTIVE STATISTICS
+================================================================================
+Generated: 2025-10-11 23:52:27
+Authors: Sandy H. S. Herho, Rusmawan Suwarman, Edi Riawan, Nurjanna J. Trilaksono
+Institution: Weather and Climate Prediction Laboratory (WCPL) ITB
+================================================================================
+
+DATASET PERIOD
+--------------------------------------------------------------------------------
+Start Date:    January 1870
+End Date:      December 2024
+Total Months:  1860
+Total Years:   155.0
+
+CENTRAL TENDENCY AND DISPERSION
+--------------------------------------------------------------------------------
+Mean:           -0.0984 C
+Median:         -0.1600 C
+Std Deviation:   0.7747 C
+Variance:        0.6001 C^2
+Range:           5.0600 C
+
+EXTREME VALUES
+--------------------------------------------------------------------------------
+Maximum:         2.5700 C on November 2015
+Minimum:        -2.4900 C on January 1890
+
+PERCENTILE DISTRIBUTION
+--------------------------------------------------------------------------------
+ 5th percentile:  -1.2400 C
+10th percentile:  -1.0200 C
+25th percentile:  -0.6400 C
+50th percentile:  -0.1600 C
+75th percentile:   0.3500 C
+90th percentile:   0.9110 C
+95th percentile:   1.3300 C
+IQR (Q3-Q1):       0.9900 C
+
+DISTRIBUTION SHAPE
+--------------------------------------------------------------------------------
+Skewness:        0.4739
+Kurtosis:        0.3819
+
+ENSO PHASE STATISTICS
+--------------------------------------------------------------------------------
+
+El Nino (>= 0.5 C):
+  Months:           377 (20.27%)
+  Mean:            1.0508 C
+  Maximum:         2.5700 C
+
+La Nina (<= -0.5 C):
+  Months:           597 (32.10%)
+  Mean:           -0.9167 C
+  Minimum:        -2.4900 C
+
+Neutral (-0.5 to 0.5 C):
+  Months:           886 (47.63%)
+
+
+================================================================================
+EXTREME EVENTS LISTING
+================================================================================
+
+STRONG EL NIÑO EVENTS (>= 1.5 C): 61 occurrences
+--------------------------------------------------------------------------------
+Date            Value (C)    Category            
+--------------------------------------------------------------------------------
+August 1877        1.540     Moderate El Niño    
+September 1877     1.750     Moderate El Niño    
+October 1877       1.950     Moderate El Niño    
+November 1877      2.080     Strong El Niño      
+December 1877      2.490     Strong El Niño      
+January 1878       2.410     Strong El Niño      
+February 1878      2.430     Strong El Niño      
+November 1888      2.210     Strong El Niño      
+December 1888      1.670     Moderate El Niño    
+January 1889       1.980     Moderate El Niño    
+November 1896      1.510     Moderate El Niño    
+December 1896      1.550     Moderate El Niño    
+December 1899      1.510     Moderate El Niño    
+November 1902      1.540     Moderate El Niño    
+January 1912       1.550     Moderate El Niño    
+January 1919       1.600     Moderate El Niño    
+December 1925      1.600     Moderate El Niño    
+January 1926       1.520     Moderate El Niño    
+November 1930      1.790     Moderate El Niño    
+January 1958       1.540     Moderate El Niño    
+October 1965       1.610     Moderate El Niño    
+November 1965      1.540     Moderate El Niño    
+October 1972       1.770     Moderate El Niño    
+November 1972      1.870     Moderate El Niño    
+December 1972      2.190     Strong El Niño      
+January 1973       1.600     Moderate El Niño    
+October 1982       2.000     Strong El Niño      
+November 1982      2.070     Strong El Niño      
+December 1982      2.330     Strong El Niño      
+January 1983       2.430     Strong El Niño      
+February 1983      2.220     Strong El Niño      
+March 1983         1.690     Moderate El Niño    
+September 1987     1.530     Moderate El Niño    
+December 1991      1.620     Moderate El Niño    
+January 1992       1.610     Moderate El Niño    
+February 1992      1.620     Moderate El Niño    
+March 1992         1.500     Moderate El Niño    
+July 1997          1.600     Moderate El Niño    
+August 1997        1.940     Moderate El Niño    
+September 1997     2.100     Strong El Niño      
+October 1997       2.290     Strong El Niño      
+November 1997      2.420     Strong El Niño      
+December 1997      2.300     Strong El Niño      
+January 1998       2.420     Strong El Niño      
+February 1998      2.080     Strong El Niño      
+December 2009      1.810     Moderate El Niño    
+July 2015          1.560     Moderate El Niño    
+August 2015        1.870     Moderate El Niño    
+September 2015     2.010     Strong El Niño      
+October 2015       2.210     Strong El Niño      
+November 2015      2.570     Strong El Niño      
+December 2015      2.560     Strong El Niño      
+January 2016       2.560     Strong El Niño      
+February 2016      2.110     Strong El Niño      
+March 2016         1.600     Moderate El Niño    
+August 2023        1.560     Moderate El Niño    
+September 2023     1.650     Moderate El Niño    
+October 2023       1.590     Moderate El Niño    
+November 2023      2.010     Strong El Niño      
+December 2023      1.810     Moderate El Niño    
+January 2024       1.710     Moderate El Niño    
+
+STRONG LA NIÑA EVENTS (<= -1.5 C): 40 occurrences
+--------------------------------------------------------------------------------
+Date            Value (C)    Category            
+--------------------------------------------------------------------------------
+January 1890      -2.490     Strong La Niña      
+February 1890     -2.110     Strong La Niña      
+October 1892      -1.540     Moderate La Niña    
+November 1892     -1.620     Moderate La Niña    
+November 1909     -1.500     Moderate La Niña    
+November 1916     -1.720     Moderate La Niña    
+December 1916     -1.640     Moderate La Niña    
+January 1917      -1.560     Moderate La Niña    
+November 1942     -1.500     Moderate La Niña    
+February 1950     -1.500     Moderate La Niña    
+October 1955      -1.590     Moderate La Niña    
+November 1955     -1.910     Moderate La Niña    
+December 1955     -1.520     Moderate La Niña    
+October 1973      -1.580     Moderate La Niña    
+November 1973     -2.070     Strong La Niña      
+December 1973     -2.180     Strong La Niña      
+January 1974      -2.020     Strong La Niña      
+February 1974     -1.500     Moderate La Niña    
+December 1975     -1.640     Moderate La Niña    
+January 1976      -1.800     Moderate La Niña    
+December 1984     -1.530     Moderate La Niña    
+July 1988         -1.540     Moderate La Niña    
+October 1988      -2.090     Strong La Niña      
+November 1988     -2.180     Strong La Niña      
+December 1988     -1.980     Moderate La Niña    
+January 1989      -1.950     Moderate La Niña    
+December 1998     -1.510     Moderate La Niña    
+January 1999      -1.530     Moderate La Niña    
+December 1999     -1.540     Moderate La Niña    
+January 2000      -1.790     Moderate La Niña    
+February 2000     -1.530     Moderate La Niña    
+November 2007     -1.580     Moderate La Niña    
+December 2007     -1.610     Moderate La Niña    
+January 2008      -1.790     Moderate La Niña    
+February 2008     -1.700     Moderate La Niña    
+September 2010    -1.560     Moderate La Niña    
+October 2010      -1.650     Moderate La Niña    
+November 2010     -1.570     Moderate La Niña    
+December 2010     -1.630     Moderate La Niña    
+January 2011      -1.700     Moderate La Niña    
+
+
+================================================================================
+ENSO EPISODES (3+ consecutive months above/below threshold)
+================================================================================
+
+EL NIÑO EPISODES: 43
+--------------------------------------------------------------------------------
+Start        End          Duration   Peak       Mean      
+Date         Date         (months)   (C)        (C)       
+--------------------------------------------------------------------------------
+Mar 1877     Jun 1878     16            2.490     1.425
+Sep 1885     Dec 1885     4             1.020     0.767
+Jul 1888     Mar 1889     9             2.210     1.294
+Aug 1896     Mar 1897     8             1.550     1.179
+Oct 1899     Sep 1900     12            1.510     0.955
+Jun 1902     Mar 1903     10            1.540     1.224
+Dec 1904     Mar 1905     4             0.920     0.795
+May 1905     Mar 1906     11            1.420     0.948
+Nov 1911     Apr 1912     6             1.550     0.908
+Nov 1913     Feb 1914     4             0.850     0.787
+Jul 1914     Sep 1914     3             0.920     0.710
+Dec 1914     Feb 1915     3             0.880     0.737
+Oct 1918     Jun 1919     9             1.600     1.014
+Jan 1920     Mar 1920     3             0.640     0.590
+Sep 1923     Dec 1923     4             1.020     0.830
+Jul 1925     Jul 1926     13            1.600     0.960
+Jul 1930     May 1931     11            1.790     1.139
+Jan 1940     Apr 1940     4             1.380     1.137
+Nov 1940     Feb 1942     16            1.410     1.034
+Jul 1951     Dec 1951     6             0.900     0.752
+Jun 1957     Mar 1958     10            1.540     0.948
+Jul 1963     Feb 1964     8             1.050     0.778
+Jul 1965     Apr 1966     10            1.610     1.125
+Nov 1968     Mar 1969     5             1.020     0.810
+Oct 1969     Jan 1970     4             0.750     0.660
+Jun 1972     Mar 1973     10            2.190     1.307
+Sep 1976     Feb 1977     6             0.880     0.723
+Oct 1977     Feb 1978     5             1.090     0.848
+May 1982     Jun 1983     14            2.430     1.438
+Sep 1986     Jan 1988     17            1.530     1.111
+Oct 1991     Jun 1992     9             1.620     1.290
+Apr 1993     Jun 1993     3             0.930     0.830
+Oct 1994     Feb 1995     5             1.210     1.044
+May 1997     May 1998     13            2.420     1.711
+Jun 2002     Feb 2003     9             1.410     0.930
+Aug 2004     Jan 2005     6             0.730     0.658
+Sep 2006     Jan 2007     5             1.100     0.810
+Jul 2009     Apr 2010     10            1.810     1.049
+Nov 2014     Feb 2015     4             0.890     0.705
+Apr 2015     Apr 2016     13            2.570     1.794
+Oct 2018     Jun 2019     9             1.000     0.743
+Oct 2019     Jan 2020     4             0.740     0.610
+Jun 2023     Apr 2024     11            2.010     1.453
+
+LA NIÑA EPISODES: 57
+--------------------------------------------------------------------------------
+Start        End          Duration   Peak       Mean      
+Date         Date         (months)   (C)        (C)       
+--------------------------------------------------------------------------------
+Jan 1870     Dec 1870     12           -1.270    -0.928
+Apr 1871     Jul 1871     4            -0.710    -0.585
+Dec 1871     Jun 1872     7            -0.770    -0.619
+Aug 1872     May 1873     10           -1.310    -0.878
+Oct 1873     Jan 1875     16           -1.400    -0.986
+Mar 1875     May 1876     15           -1.200    -0.909
+Oct 1878     Jan 1879     4            -0.750    -0.633
+May 1879     Jul 1880     15           -1.140    -0.777
+Sep 1882     Dec 1882     4            -0.920    -0.708
+May 1886     Aug 1887     16           -1.440    -0.988
+Jul 1889     Dec 1890     18           -2.490    -1.203
+Mar 1892     Nov 1894     33           -1.620    -1.052
+Jan 1898     May 1898     5            -0.790    -0.614
+Nov 1898     Mar 1899     5            -0.780    -0.692
+Nov 1903     Apr 1904     6            -1.020    -0.812
+Sep 1908     Dec 1908     4            -1.150    -0.762
+Feb 1909     Apr 1909     3            -0.880    -0.700
+Jun 1909     Jun 1911     25           -1.500    -0.946
+Feb 1916     Apr 1916     3            -0.630    -0.593
+Jul 1916     Mar 1917     9            -1.720    -1.341
+Dec 1917     Apr 1918     5            -0.960    -0.780
+Feb 1921     May 1921     4            -1.420    -0.853
+Nov 1921     Jan 1922     3            -1.030    -0.690
+Feb 1923     Apr 1923     3            -0.850    -0.720
+May 1924     Sep 1924     5            -0.980    -0.828
+Nov 1924     Jan 1925     3            -1.090    -0.927
+Jun 1933     Mar 1934     10           -1.210    -0.935
+Jun 1938     Aug 1938     3            -0.980    -0.890
+Oct 1938     Mar 1939     6            -0.950    -0.788
+Jun 1942     Apr 1943     11           -1.500    -1.031
+Jun 1945     Oct 1945     5            -0.860    -0.744
+Sep 1947     Nov 1947     3            -1.050    -0.867
+Sep 1949     Mar 1951     19           -1.500    -1.015
+May 1954     Jan 1957     33           -1.910    -0.981
+Apr 1964     Jan 1965     10           -1.100    -0.823
+Jan 1968     Mar 1968     3            -0.760    -0.700
+Jul 1970     Jan 1972     19           -1.470    -0.898
+May 1973     Jul 1974     15           -2.180    -1.273
+Oct 1974     Dec 1974     3            -0.960    -0.857
+Mar 1975     Mar 1976     13           -1.800    -1.182
+Sep 1983     Feb 1984     6            -1.130    -0.823
+Apr 1984     Jun 1984     3            -0.900    -0.713
+Oct 1984     Jul 1985     10           -1.530    -0.955
+Jan 1986     Mar 1986     3            -0.790    -0.647
+May 1988     Jun 1989     14           -2.180    -1.448
+Sep 1995     Feb 1996     6            -0.780    -0.683
+Jul 1998     Jul 2000     25           -1.790    -1.078
+Oct 2000     Feb 2001     5            -0.920    -0.746
+Dec 2005     Mar 2006     4            -0.980    -0.792
+Aug 2007     May 2008     10           -1.790    -1.240
+Dec 2008     Mar 2009     4            -1.000    -0.833
+Jun 2010     May 2011     12           -1.700    -1.205
+Aug 2011     Feb 2012     7            -1.090    -0.861
+Oct 2016     Dec 2016     3            -0.750    -0.630
+Sep 2017     Mar 2018     7            -0.860    -0.727
+Sep 2020     Apr 2021     8            -1.190    -0.886
+Sep 2021     Feb 2023     18           -1.070    -0.822
+
+RATE OF CHANGE STATISTICS (Month-to-Month)
+--------------------------------------------------------------------------------
+Mean ROC:        0.0002 C/month
+Std Dev ROC:     0.2986 C/month
+Max Increase:    1.1300 C/month on December 1939
+Max Decrease:   -1.2400 C/month on December 1889
+
+TEMPORAL CHARACTERISTICS
+--------------------------------------------------------------------------------
+Lag-1 Autocorrelation: 0.9257
+
+================================================================================
+END OF DESCRIPTIVE STATISTICS
+================================================================================

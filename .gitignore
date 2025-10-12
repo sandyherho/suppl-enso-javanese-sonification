@@ -18,10 +18,6 @@ figs/
 *.svg
 *.pdf
 
-# Statistics and analysis
-stats/
-*.txt
-*.log
 
 # Python
 # ================================
