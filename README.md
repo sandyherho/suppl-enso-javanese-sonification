@@ -1,5 +1,6 @@
 # Supplementary Materials: Preliminary sonification of ENSO using traditional Javanese gamelan scales
 
+[![DOI](https://zenodo.org/badge/1074607592.svg)](https://doi.org/10.5281/zenodo.17333649)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-1.21%2B-013243.svg)](https://numpy.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-150458.svg)](https://pandas.pydata.org/)
