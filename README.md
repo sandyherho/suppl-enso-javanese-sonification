@@ -18,8 +18,7 @@ This repository contains supplementary materials for the manuscript on sonifying
 ## Data
 
 **ENSO Data Source:** HadISST 1.1 monthly Niño 3.4 index (1870-2024)  
-Direct download: https://psl.noaa.gov/data/timeseries/monthly/NINO34/nino34.long.data  
-Source webpage: https://psl.noaa.gov/data/timeseries/month/DS/Nino34/
+Source: https://psl.noaa.gov/data/timeseries/monthly/NINO34/nino34.long.data  
 
 **Musical Sonification Outputs (MIDI & WAV):** Available at OSF: https://doi.org/10.17605/OSF.IO/QY82M
 
