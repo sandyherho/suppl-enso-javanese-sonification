@@ -193,7 +193,7 @@ If you use this code or data, please cite:
 ```bibtex
 @article{herho2025enso,
   title={Preliminary sonification of {ENSO} using traditional {Javanese} gamelan scales},
-  author={Herho, Sandy H. S. and Suwarman, Rusmawan and Trilaksono, Nurjanna J.},
+  author={Herho, Sandy H. S. and Suwarman, Rusmawan and Trilaksono, Nurjanna J., Anwar, Iwan P.},
   journal={xxx},
   year={202x},
   volume={xxx},
@@ -204,7 +204,7 @@ If you use this code or data, please cite:
 
 ## Authors
 
-**Sandy H. S. Herho**, **Rusmawan Suwarman**, **Nurjanna J. Trilaksono**  
+**Sandy H. S. Herho**, **Rusmawan Suwarman**, **Nurjanna J. Trilaksono, Iwan P. Anwar**  
 
 
 ## License

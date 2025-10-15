@@ -5,7 +5,7 @@ figure0_enso_timeseries.py
 Create Beautiful ENSO Time Series Visualization
 ===============================================
 
-Authors: Sandy H. S. Herho, Rusmawan Suwarman, Edi Riawan, Nurjanna J. Trilaksono
+Authors: Sandy H. S. Herho, Rusmawan Suwarman, Edi Riawan, Nurjanna J. Trilaksono, Iwan P.Anwar
 Institution: Weather and Climate Prediction Laboratory (WCPL) ITB
 Date: 10/11/2025
 License: WTFPL

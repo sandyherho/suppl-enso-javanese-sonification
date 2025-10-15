@@ -2,10 +2,10 @@
 """
 enso_descriptive_stats.py
 
-Comprehensive Descriptive Statistics for ENSO Nino 3.4 Index
+Descriptive Statistics for ENSO Nino 3.4 Index
 ============================================================
 
-Authors: Sandy H. S. Herho, Rusmawan Suwarman, Nurjanna J. Trilaksono
+Authors: Sandy H. S. Herho, Rusmawan Suwarman, Nurjanna J. Trilaksono, Iwan P. Anwar
 Institution: Weather and Climate Prediction Laboratory (WCPL) ITB
 Date: 10/11/2025
 License: WTFPL
