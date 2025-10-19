@@ -13,7 +13,7 @@ Outputs:
 2. Phase space analysis report: stats/phase_space_analysis.txt
 3. Phase space metrics CSV: stats/phase_space_metrics.csv
 
-Authors: Sandy H. S. Herho, Rusmawan Suwarman, Nurjanna J. Trilaksono, Iwan P. Anwar
+Authors: Sandy H. S. Herho, Rusmawan Suwarman, Nurjanna J. Trilaksono, Iwan P. Anwar, Faiz R. Fajary
 Institution: Weather and Climate Prediction Laboratory (WCPL) ITB
 Date: 10/12/2025
 License: WTFPL

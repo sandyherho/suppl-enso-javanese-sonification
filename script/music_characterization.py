@@ -5,7 +5,7 @@ music_characterization_revised.py
 Musical Characterization Analysis from Audio
 ==============================================================
 
-Authors: Sandy H. S. Herho, Rusmawan Suwarman, Nurjanna J. Trilaksono, Iwan P. Anwar
+Authors: Sandy H. S. Herho, Rusmawan Suwarman, Nurjanna J. Trilaksono, Iwan P. Anwar, Faiz R. Fajary
 Institution: Weather and Climate Prediction Laboratory (WCPL) ITB
 Date: 10/12/2025
 License: WTFPL

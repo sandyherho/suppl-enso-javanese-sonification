@@ -19,7 +19,7 @@ Outputs:
 2. Statistical report:
    - stats/timeseries_statistics.txt
 
-Authors: Sandy H. S. Herho, Rusmawan Suwarman, Nurjanna J. Trilaksono, Iwan P. Anwar
+Authors: Sandy H. S. Herho, Rusmawan Suwarman, Nurjanna J. Trilaksono, Iwan P. Anwar, Faiz R. Fajary
 Institution: Weather and Climate Prediction Laboratory (WCPL) ITB
 Date: 10/12/2025
 License: WTFPL
