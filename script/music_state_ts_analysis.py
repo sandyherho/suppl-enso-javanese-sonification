@@ -112,7 +112,7 @@ def calculate_timeseries_stats(data, name):
 
 def create_timeseries_plot(modes, variable, scale_name, output_file):
     """
-    Create 2x2 time series plot.
+    Create 2x2 time series plot with shared axis limits for comparison.
     
     Args:
         modes: List of 4 mode names
@@ -134,23 +134,57 @@ def create_timeseries_plot(modes, variable, scale_name, output_file):
         data_col = 'rms_energy_smooth'
         ylabel = 'Energy [amplitude]'
     
-    for idx, mode in enumerate(modes):
+    # First pass: Load all data to determine shared axis limits
+    all_data = []
+    for mode in modes:
+        data_file = OUTPUT_DIR / f'state_variables_{mode}.csv'
+        if data_file.exists():
+            df = pd.read_csv(data_file)
+            all_data.append({
+                'mode': mode,
+                'time': df['time_sec'].values,
+                'data': df[data_col].values
+            })
+        else:
+            all_data.append(None)
+    
+    # Calculate shared axis limits
+    valid_data = [d for d in all_data if d is not None]
+    if valid_data:
+        all_times = np.concatenate([d['time'] for d in valid_data])
+        all_values = np.concatenate([d['data'] for d in valid_data])
+        
+        time_min, time_max = all_times.min(), all_times.max()
+        value_min, value_max = all_values.min(), all_values.max()
+        
+        # Add 2% padding to y-axis for better visualization
+        value_range = value_max - value_min
+        value_min -= 0.02 * value_range
+        value_max += 0.02 * value_range
+        
+        # Add small padding to x-axis
+        time_range = time_max - time_min
+        time_min -= 0.01 * time_range
+        time_max += 0.01 * time_range
+    else:
+        time_min, time_max = 0, 1
+        value_min, value_max = 0, 1
+    
+    # Second pass: Create plots with shared limits
+    for idx, (mode, data_dict) in enumerate(zip(modes, all_data)):
         ax = axes[idx]
         
-        # Load data
-        data_file = OUTPUT_DIR / f'state_variables_{mode}.csv'
-        
-        if not data_file.exists():
+        if data_dict is None:
             ax.text(0.5, 0.5, 'Data not available', 
                    ha='center', va='center', transform=ax.transAxes)
             ax.set_xlabel('Time [s]')
             ax.set_ylabel(ylabel)
+            ax.set_xlim(time_min, time_max)
+            ax.set_ylim(value_min, value_max)
             continue
         
-        df = pd.read_csv(data_file)
-        
-        time = df['time_sec'].values
-        data = df[data_col].values
+        time = data_dict['time']
+        data = data_dict['data']
         
         # Determine composition type for color
         comp_type = mode.split('_')[1]
@@ -158,6 +192,10 @@ def create_timeseries_plot(modes, variable, scale_name, output_file):
         
         # Plot time series
         ax.plot(time, data, color=color, linewidth=1.2, alpha=0.8)
+        
+        # Apply shared axis limits
+        ax.set_xlim(time_min, time_max)
+        ax.set_ylim(value_min, value_max)
         
         # Subplot label
         ax.text(0.02, 0.98, subplot_labels[idx], transform=ax.transAxes,
