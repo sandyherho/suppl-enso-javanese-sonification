@@ -112,3 +112,12 @@ htmlcov/
 *.bak
 *.backup
 *~
+
+# Music outputs (MIDI/WAV from enso_sonification.py)
+music_outputs/
+*.mid
+*.midi
+*.wav
+*.mp3
+*.ogg
+*.flac

@@ -55,7 +55,7 @@ from scipy.fft import fft
 
 INPUT_DIR = Path('../input_data')
 OUTPUT_DIR = Path('../music_outputs')
-INPUT_FILE = INPUT_DIR / 'nino34_hadisst_mon_1870_2024.csv'
+INPUT_FILE = INPUT_DIR / 'nino34_hadisst_mon_1870_2026.csv'
 
 TEMPO_BPM = 120
 TIME_STEP = 0.5

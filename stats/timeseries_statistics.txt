@@ -1,7 +1,7 @@
 ====================================================================================================
 TIME SERIES STATISTICS OF MUSICAL STATE VARIABLES
 ====================================================================================================
-Generated: 2025-10-20 15:13:47
+Generated: 2026-11-18 03:19:06
 Authors: Sandy H. S. Herho, Rusmawan Suwarman, Edi Riawan, Nurjanna J. Trilaksono
 Institution: Weather and Climate Prediction Laboratory (WCPL) ITB
 ====================================================================================================
@@ -27,14 +27,14 @@ SUMMARY TABLE
 ----------------------------------------------------------------------------------------------------
 Mode                      Mean [Hz]    Std [Hz]     Range [Hz]   Trend     
 ----------------------------------------------------------------------------------------------------
-pelog_layered                1238.12      310.84     2957.58         ↑
-pelog_alternating            1063.44      321.95     2745.24         ↑
-pelog_melodic                 809.21      148.47     2310.97         ↑
-pelog_spectral               1269.82      156.63     2464.20         ↑
-slendro_layered              1863.42      208.24     2414.75         ↑
-slendro_alternating          1232.65      189.57     2330.68         ↑
-slendro_melodic              1418.08      194.41     2349.15         ↑
-slendro_spectral             1274.11      161.63     2733.43         ↑
+pelog_layered                1249.21      348.51     3142.70         ↑
+pelog_alternating            1087.87      371.16     2979.19         ↑
+pelog_melodic                 815.04      158.11     1609.71         ↑
+pelog_spectral               1293.76      156.58     1558.82         ↑
+slendro_layered              1903.95      165.68     1293.06         ↑
+slendro_alternating          1316.07      177.14     1712.53         ↑
+slendro_melodic              1479.65      226.61     1944.30         ↑
+slendro_spectral             1320.52      158.28     1570.18         ↑
 
 
 DETAILED STATISTICS
@@ -43,30 +43,30 @@ DETAILED STATISTICS
 MODE: PELOG_LAYERED
 ----------------------------------------------------------------------------------------------------
 Central Tendency:
-  Mean:                   1238.12 Hz
-  Median:                 1194.46 Hz
-  25th percentile:        1084.35 Hz
-  75th percentile:        1303.56 Hz
+  Mean:                   1249.21 Hz
+  Median:                 1200.24 Hz
+  25th percentile:        1085.69 Hz
+  75th percentile:        1304.82 Hz
 
 Dispersion:
-  Std Deviation:           310.84 Hz
-  Min:                       3.59 Hz
-  Max:                    2961.17 Hz
-  Range:                  2957.58 Hz
-  IQR:                     219.22 Hz
-  Coeff. Variation:        0.2511
+  Std Deviation:           348.51 Hz
+  Min:                       0.00 Hz
+  Max:                    3142.70 Hz
+  Range:                  3142.70 Hz
+  IQR:                     219.14 Hz
+  Coeff. Variation:        0.2790
 
 Distribution Shape:
-  Skewness:                3.5102
-  Kurtosis:               16.9763
+  Skewness:                4.0485
+  Kurtosis:               19.5380
 
 Temporal Dynamics:
-  Trend slope:           0.030972 Hz/frame
-  Trend R²:                0.0907
+  Trend slope:           0.036701 Hz/frame
+  Trend R²:                0.1034
   Trend p-value:         0.000000
-  Autocorr (lag-1):        0.9934
-  ROC mean:               -0.1223 Hz/frame
-  ROC std:                35.7137 Hz/frame
+  Autocorr (lag-1):        0.9948
+  ROC mean:               -0.1204 Hz/frame
+  ROC std:                35.5920 Hz/frame
 
 Interpretation:
   Distribution:  Right-skewed (tail toward higher frequencies)
@@ -76,30 +76,30 @@ Interpretation:
 MODE: PELOG_ALTERNATING
 ----------------------------------------------------------------------------------------------------
 Central Tendency:
-  Mean:                   1063.44 Hz
-  Median:                  969.92 Hz
-  25th percentile:         871.71 Hz
-  75th percentile:        1191.69 Hz
+  Mean:                   1087.87 Hz
+  Median:                  982.32 Hz
+  25th percentile:         876.29 Hz
+  75th percentile:        1211.56 Hz
 
 Dispersion:
-  Std Deviation:           321.95 Hz
-  Min:                       3.59 Hz
-  Max:                    2748.83 Hz
-  Range:                  2745.24 Hz
-  IQR:                     319.98 Hz
-  Coeff. Variation:        0.3027
+  Std Deviation:           371.16 Hz
+  Min:                       0.00 Hz
+  Max:                    2979.19 Hz
+  Range:                  2979.19 Hz
+  IQR:                     335.27 Hz
+  Coeff. Variation:        0.3412
 
 Distribution Shape:
-  Skewness:                2.9924
-  Kurtosis:               12.4716
+  Skewness:                3.4445
+  Kurtosis:               14.4670
 
 Temporal Dynamics:
-  Trend slope:           0.032963 Hz/frame
-  Trend R²:                0.0959
+  Trend slope:           0.041528 Hz/frame
+  Trend R²:                0.1164
   Trend p-value:         0.000000
-  Autocorr (lag-1):        0.9961
-  ROC mean:               -0.1072 Hz/frame
-  ROC std:                28.5458 Hz/frame
+  Autocorr (lag-1):        0.9969
+  ROC mean:               -0.1157 Hz/frame
+  ROC std:                29.0246 Hz/frame
 
 Interpretation:
   Distribution:  Right-skewed (tail toward higher frequencies)
@@ -109,30 +109,30 @@ Interpretation:
 MODE: PELOG_MELODIC
 ----------------------------------------------------------------------------------------------------
 Central Tendency:
-  Mean:                    809.21 Hz
-  Median:                  740.30 Hz
-  25th percentile:         697.66 Hz
-  75th percentile:         929.10 Hz
+  Mean:                    815.04 Hz
+  Median:                  736.15 Hz
+  25th percentile:         692.76 Hz
+  75th percentile:         948.10 Hz
 
 Dispersion:
-  Std Deviation:           148.47 Hz
-  Min:                      94.18 Hz
-  Max:                    2405.15 Hz
-  Range:                  2310.97 Hz
-  IQR:                     231.44 Hz
-  Coeff. Variation:        0.1835
+  Std Deviation:           158.11 Hz
+  Min:                     616.14 Hz
+  Max:                    2225.85 Hz
+  Range:                  1609.71 Hz
+  IQR:                     255.33 Hz
+  Coeff. Variation:        0.1940
 
 Distribution Shape:
-  Skewness:                2.6815
-  Kurtosis:               22.4619
+  Skewness:                2.4123
+  Kurtosis:               16.3748
 
 Temporal Dynamics:
-  Trend slope:           0.009903 Hz/frame
-  Trend R²:                0.0377
+  Trend slope:           0.012419 Hz/frame
+  Trend R²:                0.0533
   Trend p-value:         0.000000
-  Autocorr (lag-1):        0.9905
-  ROC mean:               -0.0682 Hz/frame
-  ROC std:                20.4906 Hz/frame
+  Autocorr (lag-1):        0.9920
+  ROC mean:                0.1354 Hz/frame
+  ROC std:                19.9406 Hz/frame
 
 Interpretation:
   Distribution:  Right-skewed (tail toward higher frequencies)
@@ -142,162 +142,162 @@ Interpretation:
 MODE: PELOG_SPECTRAL
 ----------------------------------------------------------------------------------------------------
 Central Tendency:
-  Mean:                   1269.82 Hz
-  Median:                 1268.73 Hz
-  25th percentile:        1187.88 Hz
-  75th percentile:        1349.48 Hz
+  Mean:                   1293.76 Hz
+  Median:                 1289.80 Hz
+  25th percentile:        1208.26 Hz
+  75th percentile:        1372.01 Hz
 
 Dispersion:
-  Std Deviation:           156.63 Hz
-  Min:                       3.59 Hz
-  Max:                    2467.79 Hz
-  Range:                  2464.20 Hz
-  IQR:                     161.60 Hz
-  Coeff. Variation:        0.1234
+  Std Deviation:           156.58 Hz
+  Min:                     873.36 Hz
+  Max:                    2432.18 Hz
+  Range:                  1558.82 Hz
+  IQR:                     163.76 Hz
+  Coeff. Variation:        0.1210
 
 Distribution Shape:
-  Skewness:                0.1732
-  Kurtosis:                9.2462
+  Skewness:                1.3327
+  Kurtosis:                7.6516
 
 Temporal Dynamics:
-  Trend slope:           0.003658 Hz/frame
-  Trend R²:                0.0046
+  Trend slope:           0.006205 Hz/frame
+  Trend R²:                0.0136
   Trend p-value:         0.000000
-  Autocorr (lag-1):        0.9584
-  ROC mean:               -0.1141 Hz/frame
-  ROC std:                45.1141 Hz/frame
+  Autocorr (lag-1):        0.9610
+  ROC mean:                0.0563 Hz/frame
+  ROC std:                43.7214 Hz/frame
 
 Interpretation:
-  Distribution:  Nearly symmetric
+  Distribution:  Right-skewed (tail toward higher frequencies)
   Trend:         Significant increasing trend (p < 0.05)
   Persistence:   High (values change slowly)
 
 MODE: SLENDRO_LAYERED
 ----------------------------------------------------------------------------------------------------
 Central Tendency:
-  Mean:                   1863.42 Hz
-  Median:                 1847.26 Hz
-  25th percentile:        1759.89 Hz
-  75th percentile:        1963.83 Hz
+  Mean:                   1903.95 Hz
+  Median:                 1883.84 Hz
+  25th percentile:        1787.17 Hz
+  75th percentile:        1999.77 Hz
 
 Dispersion:
-  Std Deviation:           208.24 Hz
-  Min:                       3.59 Hz
-  Max:                    2418.34 Hz
-  Range:                  2414.75 Hz
-  IQR:                     203.94 Hz
-  Coeff. Variation:        0.1117
+  Std Deviation:           165.68 Hz
+  Min:                    1408.16 Hz
+  Max:                    2701.22 Hz
+  Range:                  1293.06 Hz
+  IQR:                     212.60 Hz
+  Coeff. Variation:        0.0870
 
 Distribution Shape:
-  Skewness:               -2.6416
-  Kurtosis:               22.7722
+  Skewness:                0.5724
+  Kurtosis:                0.3764
 
 Temporal Dynamics:
-  Trend slope:           0.002041 Hz/frame
-  Trend R²:                0.0008
-  Trend p-value:         0.003291
-  Autocorr (lag-1):        0.9796
-  ROC mean:               -0.1693 Hz/frame
-  ROC std:                42.0369 Hz/frame
+  Trend slope:           0.008568 Hz/frame
+  Trend R²:                0.0239
+  Trend p-value:         0.000000
+  Autocorr (lag-1):        0.9692
+  ROC mean:                0.0902 Hz/frame
+  ROC std:                41.1187 Hz/frame
 
 Interpretation:
-  Distribution:  Left-skewed (tail toward lower frequencies)
+  Distribution:  Right-skewed (tail toward higher frequencies)
   Trend:         Significant increasing trend (p < 0.05)
   Persistence:   High (values change slowly)
 
 MODE: SLENDRO_ALTERNATING
 ----------------------------------------------------------------------------------------------------
 Central Tendency:
-  Mean:                   1232.65 Hz
-  Median:                 1199.17 Hz
-  25th percentile:        1122.90 Hz
-  75th percentile:        1330.73 Hz
+  Mean:                   1316.07 Hz
+  Median:                 1282.69 Hz
+  25th percentile:        1198.67 Hz
+  75th percentile:        1406.00 Hz
 
 Dispersion:
-  Std Deviation:           189.57 Hz
-  Min:                       3.59 Hz
-  Max:                    2334.27 Hz
-  Range:                  2330.68 Hz
-  IQR:                     207.83 Hz
-  Coeff. Variation:        0.1538
+  Std Deviation:           177.14 Hz
+  Min:                     923.57 Hz
+  Max:                    2636.10 Hz
+  Range:                  1712.53 Hz
+  IQR:                     207.33 Hz
+  Coeff. Variation:        0.1346
 
 Distribution Shape:
-  Skewness:                0.4497
-  Kurtosis:                9.8790
+  Skewness:                1.8532
+  Kurtosis:                7.1680
 
 Temporal Dynamics:
-  Trend slope:           0.005581 Hz/frame
-  Trend R²:                0.0076
+  Trend slope:           0.009427 Hz/frame
+  Trend R²:                0.0253
   Trend p-value:         0.000000
-  Autocorr (lag-1):        0.9776
-  ROC mean:               -0.1609 Hz/frame
-  ROC std:                40.0937 Hz/frame
+  Autocorr (lag-1):        0.9756
+  ROC mean:                0.0540 Hz/frame
+  ROC std:                39.0647 Hz/frame
 
 Interpretation:
-  Distribution:  Nearly symmetric
+  Distribution:  Right-skewed (tail toward higher frequencies)
   Trend:         Significant increasing trend (p < 0.05)
   Persistence:   High (values change slowly)
 
 MODE: SLENDRO_MELODIC
 ----------------------------------------------------------------------------------------------------
 Central Tendency:
-  Mean:                   1418.08 Hz
-  Median:                 1398.02 Hz
-  25th percentile:        1290.47 Hz
-  75th percentile:        1510.61 Hz
+  Mean:                   1479.65 Hz
+  Median:                 1443.24 Hz
+  25th percentile:        1328.84 Hz
+  75th percentile:        1575.53 Hz
 
 Dispersion:
-  Std Deviation:           194.41 Hz
-  Min:                       3.96 Hz
-  Max:                    2353.11 Hz
-  Range:                  2349.15 Hz
-  IQR:                     220.14 Hz
-  Coeff. Variation:        0.1371
+  Std Deviation:           226.61 Hz
+  Min:                    1055.07 Hz
+  Max:                    2999.37 Hz
+  Range:                  1944.30 Hz
+  IQR:                     246.69 Hz
+  Coeff. Variation:        0.1532
 
 Distribution Shape:
-  Skewness:                0.4999
-  Kurtosis:                5.4151
+  Skewness:                1.9932
+  Kurtosis:                8.1502
 
 Temporal Dynamics:
-  Trend slope:           0.004525 Hz/frame
-  Trend R²:                0.0046
+  Trend slope:           0.011903 Hz/frame
+  Trend R²:                0.0238
   Trend p-value:         0.000000
-  Autocorr (lag-1):        0.9666
-  ROC mean:               -0.1228 Hz/frame
-  ROC std:                50.1733 Hz/frame
+  Autocorr (lag-1):        0.9762
+  ROC mean:                0.1714 Hz/frame
+  ROC std:                49.3720 Hz/frame
 
 Interpretation:
-  Distribution:  Nearly symmetric
+  Distribution:  Right-skewed (tail toward higher frequencies)
   Trend:         Significant increasing trend (p < 0.05)
   Persistence:   High (values change slowly)
 
 MODE: SLENDRO_SPECTRAL
 ----------------------------------------------------------------------------------------------------
 Central Tendency:
-  Mean:                   1274.11 Hz
-  Median:                 1271.08 Hz
-  25th percentile:        1189.96 Hz
-  75th percentile:        1354.39 Hz
+  Mean:                   1320.52 Hz
+  Median:                 1323.88 Hz
+  25th percentile:        1239.42 Hz
+  75th percentile:        1401.36 Hz
 
 Dispersion:
-  Std Deviation:           161.63 Hz
-  Min:                       3.59 Hz
-  Max:                    2737.02 Hz
-  Range:                  2733.43 Hz
-  IQR:                     164.43 Hz
-  Coeff. Variation:        0.1269
+  Std Deviation:           158.28 Hz
+  Min:                     873.52 Hz
+  Max:                    2443.69 Hz
+  Range:                  1570.18 Hz
+  IQR:                     161.94 Hz
+  Coeff. Variation:        0.1199
 
 Distribution Shape:
-  Skewness:                0.7202
-  Kurtosis:               13.8465
+  Skewness:                1.0308
+  Kurtosis:                6.8353
 
 Temporal Dynamics:
-  Trend slope:           0.004128 Hz/frame
-  Trend R²:                0.0055
+  Trend slope:           0.006137 Hz/frame
+  Trend R²:                0.0130
   Trend p-value:         0.000000
-  Autocorr (lag-1):        0.9592
-  ROC mean:               -0.1141 Hz/frame
-  ROC std:                46.1418 Hz/frame
+  Autocorr (lag-1):        0.9618
+  ROC mean:                0.0579 Hz/frame
+  ROC std:                43.7288 Hz/frame
 
 Interpretation:
   Distribution:  Right-skewed (tail toward higher frequencies)
@@ -313,14 +313,14 @@ SUMMARY TABLE
 ----------------------------------------------------------------------------------------------------
 Mode                      Mean         Std          Range        Trend     
 ----------------------------------------------------------------------------------------------------
-pelog_layered               0.020813    0.005378    0.034224         ↓
-pelog_alternating           0.012970    0.003443    0.019404         ↓
-pelog_melodic               0.018010    0.003151    0.026714         ↓
-pelog_spectral              0.011857    0.003365    0.025634         ↓
-slendro_layered             0.022295    0.004746    0.035370         ↓
-slendro_alternating         0.011332    0.002397    0.018665         ↓
-slendro_melodic             0.007872    0.001534    0.014562         ↓
-slendro_spectral            0.012163    0.003237    0.024124         ↓
+pelog_layered               0.022163    0.005891    0.037157         ↓
+pelog_alternating           0.013534    0.003699    0.020897         ↓
+pelog_melodic               0.018660    0.003962    0.030679         ↓
+pelog_spectral              0.012616    0.003781    0.027378         ↓
+slendro_layered             0.023177    0.004889    0.035511         ↓
+slendro_alternating         0.011857    0.002428    0.019056         ↓
+slendro_melodic             0.007947    0.001762    0.015366         ↓
+slendro_spectral            0.012420    0.003787    0.027382         ↓
 
 
 DETAILED STATISTICS
@@ -329,30 +329,30 @@ DETAILED STATISTICS
 MODE: PELOG_LAYERED
 ----------------------------------------------------------------------------------------------------
 Central Tendency:
-  Mean:                  0.020813
-  Median:                0.020761
-  25th percentile:       0.019053
-  75th percentile:       0.023600
+  Mean:                  0.022163
+  Median:                0.021695
+  25th percentile:       0.020053
+  75th percentile:       0.025498
 
 Dispersion:
-  Std Deviation:         0.005378
-  Min:                   0.000025
-  Max:                   0.034249
-  Range:                 0.034224
-  IQR:                   0.004547
-  Coeff. Variation:        0.2584
+  Std Deviation:         0.005891
+  Min:                   0.000000
+  Max:                   0.037157
+  Range:                 0.037157
+  IQR:                   0.005445
+  Coeff. Variation:        0.2658
 
 Distribution Shape:
-  Skewness:               -2.0464
-  Kurtosis:                6.7268
+  Skewness:               -1.7699
+  Kurtosis:                5.8007
 
 Temporal Dynamics:
-  Trend slope:       -0.000000610 /frame
-  Trend R²:                0.1176
+  Trend slope:       -0.000000646 /frame
+  Trend R²:                0.1121
   Trend p-value:         0.000000
-  Autocorr (lag-1):        0.9984
+  Autocorr (lag-1):        0.9985
   ROC mean:             -0.000003 /frame
-  ROC std:               0.000305 /frame
+  ROC std:               0.000318 /frame
 
 Interpretation:
   Distribution:  Left-skewed (tail toward lower energy)
@@ -362,30 +362,30 @@ Interpretation:
 MODE: PELOG_ALTERNATING
 ----------------------------------------------------------------------------------------------------
 Central Tendency:
-  Mean:                  0.012970
-  Median:                0.013752
-  25th percentile:       0.011268
-  75th percentile:       0.015218
+  Mean:                  0.013534
+  Median:                0.014142
+  25th percentile:       0.011595
+  75th percentile:       0.015792
 
 Dispersion:
-  Std Deviation:         0.003443
-  Min:                   0.000024
-  Max:                   0.019428
-  Range:                 0.019404
-  IQR:                   0.003950
-  Coeff. Variation:        0.2654
+  Std Deviation:         0.003699
+  Min:                   0.000000
+  Max:                   0.020897
+  Range:                 0.020897
+  IQR:                   0.004197
+  Coeff. Variation:        0.2733
 
 Distribution Shape:
-  Skewness:               -2.0447
-  Kurtosis:                5.6096
+  Skewness:               -1.7684
+  Kurtosis:                4.7636
 
 Temporal Dynamics:
-  Trend slope:       -0.000000399 /frame
-  Trend R²:                0.1231
+  Trend slope:       -0.000000464 /frame
+  Trend R²:                0.1466
   Trend p-value:         0.000000
-  Autocorr (lag-1):        0.9979
-  ROC mean:             -0.000001 /frame
-  ROC std:               0.000221 /frame
+  Autocorr (lag-1):        0.9981
+  ROC mean:             -0.000002 /frame
+  ROC std:               0.000229 /frame
 
 Interpretation:
   Distribution:  Left-skewed (tail toward lower energy)
@@ -395,63 +395,63 @@ Interpretation:
 MODE: PELOG_MELODIC
 ----------------------------------------------------------------------------------------------------
 Central Tendency:
-  Mean:                  0.018010
-  Median:                0.018004
-  25th percentile:       0.015894
-  75th percentile:       0.020054
+  Mean:                  0.018660
+  Median:                0.018194
+  25th percentile:       0.015729
+  75th percentile:       0.021113
 
 Dispersion:
-  Std Deviation:         0.003151
-  Min:                   0.000021
-  Max:                   0.026735
-  Range:                 0.026714
-  IQR:                   0.004160
-  Coeff. Variation:        0.1750
+  Std Deviation:         0.003962
+  Min:                   0.000018
+  Max:                   0.030697
+  Range:                 0.030679
+  IQR:                   0.005383
+  Coeff. Variation:        0.2123
 
 Distribution Shape:
-  Skewness:               -0.6906
-  Kurtosis:                4.0124
+  Skewness:               -0.0976
+  Kurtosis:                1.6144
 
 Temporal Dynamics:
-  Trend slope:       -0.000000156 /frame
-  Trend R²:                0.0208
+  Trend slope:       -0.000000236 /frame
+  Trend R²:                0.0307
   Trend p-value:         0.000000
-  Autocorr (lag-1):        0.9948
+  Autocorr (lag-1):        0.9963
   ROC mean:             -0.000002 /frame
-  ROC std:               0.000320 /frame
+  ROC std:               0.000341 /frame
 
 Interpretation:
-  Distribution:  Left-skewed (tail toward lower energy)
+  Distribution:  Nearly symmetric
   Trend:         Significant decreasing trend (p < 0.05)
   Persistence:   High (energy changes slowly)
 
 MODE: PELOG_SPECTRAL
 ----------------------------------------------------------------------------------------------------
 Central Tendency:
-  Mean:                  0.011857
-  Median:                0.011184
-  25th percentile:       0.009499
-  75th percentile:       0.013779
+  Mean:                  0.012616
+  Median:                0.011795
+  25th percentile:       0.009952
+  75th percentile:       0.014866
 
 Dispersion:
-  Std Deviation:         0.003365
-  Min:                   0.000021
-  Max:                   0.025655
-  Range:                 0.025634
-  IQR:                   0.004280
-  Coeff. Variation:        0.2838
+  Std Deviation:         0.003781
+  Min:                   0.000026
+  Max:                   0.027404
+  Range:                 0.027378
+  IQR:                   0.004914
+  Coeff. Variation:        0.2997
 
 Distribution Shape:
-  Skewness:                0.7400
-  Kurtosis:                1.2714
+  Skewness:                0.7007
+  Kurtosis:                1.1428
 
 Temporal Dynamics:
-  Trend slope:       -0.000000105 /frame
-  Trend R²:                0.0083
+  Trend slope:       -0.000000128 /frame
+  Trend R²:                0.0100
   Trend p-value:         0.000000
-  Autocorr (lag-1):        0.9962
+  Autocorr (lag-1):        0.9964
   ROC mean:             -0.000001 /frame
-  ROC std:               0.000293 /frame
+  ROC std:               0.000323 /frame
 
 Interpretation:
   Distribution:  Right-skewed (tail toward higher energy)
@@ -461,30 +461,30 @@ Interpretation:
 MODE: SLENDRO_LAYERED
 ----------------------------------------------------------------------------------------------------
 Central Tendency:
-  Mean:                  0.022295
-  Median:                0.022218
-  25th percentile:       0.020130
-  75th percentile:       0.024728
+  Mean:                  0.023177
+  Median:                0.023220
+  25th percentile:       0.020893
+  75th percentile:       0.025832
 
 Dispersion:
-  Std Deviation:         0.004746
-  Min:                   0.000020
-  Max:                   0.035390
-  Range:                 0.035370
-  IQR:                   0.004598
-  Coeff. Variation:        0.2129
+  Std Deviation:         0.004889
+  Min:                   0.000006
+  Max:                   0.035517
+  Range:                 0.035511
+  IQR:                   0.004940
+  Coeff. Variation:        0.2109
 
 Distribution Shape:
-  Skewness:               -1.9297
-  Kurtosis:                8.8707
+  Skewness:               -2.0461
+  Kurtosis:                9.0936
 
 Temporal Dynamics:
-  Trend slope:       -0.000000258 /frame
-  Trend R²:                0.0259
+  Trend slope:       -0.000000249 /frame
+  Trend R²:                0.0231
   Trend p-value:         0.000000
   Autocorr (lag-1):        0.9963
   ROC mean:             -0.000003 /frame
-  ROC std:               0.000406 /frame
+  ROC std:               0.000419 /frame
 
 Interpretation:
   Distribution:  Left-skewed (tail toward lower energy)
@@ -494,30 +494,30 @@ Interpretation:
 MODE: SLENDRO_ALTERNATING
 ----------------------------------------------------------------------------------------------------
 Central Tendency:
-  Mean:                  0.011332
-  Median:                0.011390
-  25th percentile:       0.010311
-  75th percentile:       0.012533
+  Mean:                  0.011857
+  Median:                0.011978
+  25th percentile:       0.010808
+  75th percentile:       0.013198
 
 Dispersion:
-  Std Deviation:         0.002397
-  Min:                   0.000021
-  Max:                   0.018686
-  Range:                 0.018665
-  IQR:                   0.002223
-  Coeff. Variation:        0.2115
+  Std Deviation:         0.002428
+  Min:                   0.000004
+  Max:                   0.019060
+  Range:                 0.019056
+  IQR:                   0.002390
+  Coeff. Variation:        0.2048
 
 Distribution Shape:
-  Skewness:               -1.9829
-  Kurtosis:                8.9726
+  Skewness:               -2.1423
+  Kurtosis:                9.6342
 
 Temporal Dynamics:
-  Trend slope:       -0.000000128 /frame
-  Trend R²:                0.0249
+  Trend slope:       -0.000000124 /frame
+  Trend R²:                0.0231
   Trend p-value:         0.000000
-  Autocorr (lag-1):        0.9914
+  Autocorr (lag-1):        0.9910
   ROC mean:             -0.000002 /frame
-  ROC std:               0.000314 /frame
+  ROC std:               0.000326 /frame
 
 Interpretation:
   Distribution:  Left-skewed (tail toward lower energy)
@@ -527,30 +527,30 @@ Interpretation:
 MODE: SLENDRO_MELODIC
 ----------------------------------------------------------------------------------------------------
 Central Tendency:
-  Mean:                  0.007872
-  Median:                0.007871
-  25th percentile:       0.006854
-  75th percentile:       0.008893
+  Mean:                  0.007947
+  Median:                0.007891
+  25th percentile:       0.006733
+  75th percentile:       0.009028
 
 Dispersion:
-  Std Deviation:         0.001534
-  Min:                   0.000021
-  Max:                   0.014583
-  Range:                 0.014562
-  IQR:                   0.002039
-  Coeff. Variation:        0.1948
+  Std Deviation:         0.001762
+  Min:                   0.000020
+  Max:                   0.015386
+  Range:                 0.015366
+  IQR:                   0.002295
+  Coeff. Variation:        0.2218
 
 Distribution Shape:
-  Skewness:               -0.4653
-  Kurtosis:                2.9660
+  Skewness:               -0.1033
+  Kurtosis:                1.8246
 
 Temporal Dynamics:
-  Trend slope:       -0.000000056 /frame
-  Trend R²:                0.0113
+  Trend slope:       -0.000000068 /frame
+  Trend R²:                0.0128
   Trend p-value:         0.000000
-  Autocorr (lag-1):        0.9827
+  Autocorr (lag-1):        0.9850
   ROC mean:             -0.000001 /frame
-  ROC std:               0.000285 /frame
+  ROC std:               0.000305 /frame
 
 Interpretation:
   Distribution:  Nearly symmetric
@@ -560,30 +560,30 @@ Interpretation:
 MODE: SLENDRO_SPECTRAL
 ----------------------------------------------------------------------------------------------------
 Central Tendency:
-  Mean:                  0.012163
-  Median:                0.011641
-  25th percentile:       0.010074
-  75th percentile:       0.013924
+  Mean:                  0.012420
+  Median:                0.011545
+  25th percentile:       0.009767
+  75th percentile:       0.014593
 
 Dispersion:
-  Std Deviation:         0.003237
-  Min:                   0.000021
-  Max:                   0.024145
-  Range:                 0.024124
-  IQR:                   0.003850
-  Coeff. Variation:        0.2661
+  Std Deviation:         0.003787
+  Min:                   0.000026
+  Max:                   0.027408
+  Range:                 0.027382
+  IQR:                   0.004826
+  Coeff. Variation:        0.3049
 
 Distribution Shape:
-  Skewness:                0.5752
-  Kurtosis:                1.3492
+  Skewness:                0.7833
+  Kurtosis:                1.2298
 
 Temporal Dynamics:
-  Trend slope:       -0.000000119 /frame
-  Trend R²:                0.0114
+  Trend slope:       -0.000000133 /frame
+  Trend R²:                0.0108
   Trend p-value:         0.000000
-  Autocorr (lag-1):        0.9960
+  Autocorr (lag-1):        0.9962
   ROC mean:             -0.000001 /frame
-  ROC std:               0.000289 /frame
+  ROC std:               0.000330 /frame
 
 Interpretation:
   Distribution:  Right-skewed (tail toward higher energy)
@@ -599,24 +599,24 @@ BY SCALE FAMILY
 ----------------------------------------------------------------------------------------------------
 
 Pelog Brightness (n=4):
-  Average Mean:           1095.15 Hz
-  Average Std:             234.47 Hz
-  Average CV:              0.2152
+  Average Mean:           1111.47 Hz
+  Average Std:             258.59 Hz
+  Average CV:              0.2338
 
 Slendro Brightness (n=4):
-  Average Mean:           1447.06 Hz
-  Average Std:             188.46 Hz
-  Average CV:              0.1324
+  Average Mean:           1505.05 Hz
+  Average Std:             181.93 Hz
+  Average CV:              0.1237
 
 Pelog Energy (n=4):
-  Average Mean:          0.015912
-  Average Std:           0.003834
-  Average CV:              0.2457
+  Average Mean:          0.016743
+  Average Std:           0.004333
+  Average CV:              0.2628
 
 Slendro Energy (n=4):
-  Average Mean:          0.013415
-  Average Std:           0.002978
-  Average CV:              0.2213
+  Average Mean:          0.013850
+  Average Std:           0.003217
+  Average CV:              0.2356
 
 ====================================================================================================
 END OF TIME SERIES STATISTICS

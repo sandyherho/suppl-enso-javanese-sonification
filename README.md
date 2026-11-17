@@ -18,7 +18,7 @@ This repository contains supplementary materials for the manuscript on sonifying
 
 ## Data
 
-**ENSO Data Source:** HadISST 1.1 monthly Niño 3.4 index (1870-2024)  
+**ENSO Data Source:** HadISST 1.1 monthly Niño 3.4 index (1870-2026)  
 Source: https://psl.noaa.gov/data/timeseries/month/DS/Nino34/
 
 **Musical Sonification Outputs (MIDI & WAV):** Available at OSF: https://doi.org/10.17605/OSF.IO/QY82M
@@ -194,11 +194,11 @@ If you use this code or data, please cite:
 @article{herho2025enso,
   title={Preliminary sonification of {ENSO} using traditional {Javanese} gamelan scales},
   author={Herho, Sandy H. S. and Suwarman, Rusmawan and Trilaksono, Nurjanna J., Anwar, Iwan P., Fajary, F .R.},
-  journal={xxx},
-  year={202x},
-  volume={xxx},
-  pages={xxx},
-  doi={xxxx}
+  journal={Northeast Journal of Complex Systems (NEJCS)},
+  year={2026},
+  volume={8},
+  pages={Article 1},
+  note={\url{https://doi.org/10.63562/2577-8439.1130}}
 }
 ```
 

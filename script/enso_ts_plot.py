@@ -21,7 +21,7 @@ from matplotlib.dates import YearLocator, DateFormatter
 # Configuration
 INPUT_DIR = Path('../input_data')
 FIGS_DIR = Path('../figs')
-INPUT_FILE = INPUT_DIR / 'nino34_hadisst_mon_1870_2024.csv'
+INPUT_FILE = INPUT_DIR / 'nino34_hadisst_mon_1870_2026.csv'
 OUTPUT_FILE = FIGS_DIR / 'fig_enso_timeseries.png'
 
 

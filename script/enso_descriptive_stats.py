@@ -21,7 +21,7 @@ from datetime import datetime
 # Configuration
 INPUT_DIR = Path('../input_data')
 STATS_DIR = Path('../stats')
-INPUT_FILE = INPUT_DIR / 'nino34_hadisst_mon_1870_2024.csv'
+INPUT_FILE = INPUT_DIR / 'nino34_hadisst_mon_1870_2026.csv'
 OUTPUT_FILE = STATS_DIR / 'enso_descriptive_statistics.txt'
 
 

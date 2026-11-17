@@ -1,7 +1,7 @@
 ====================================================================================================
 PHASE SPACE ANALYSIS OF MUSICAL STATE VARIABLES
 ====================================================================================================
-Generated: 2025-10-12 08:43:48
+Generated: 2026-11-18 03:19:17
 Authors: Sandy H. S. Herho, Rusmawan Suwarman, Edi Riawan, Nurjanna J. Trilaksono
 Institution: Weather and Climate Prediction Laboratory (WCPL) ITB
 ====================================================================================================
@@ -29,53 +29,53 @@ SUMMARY TABLE
 Mode                      Area       Length     Revisit    Explor     Corr      
                           [norm²]    [norm]     [-]        [norm]     [-]       
 ----------------------------------------------------------------------------------------------------
-pelog_layered               0.5291   146.759     0.119    0.0036    -0.568
-pelog_alternating           0.2849    99.834     0.240    0.0029    -0.790
-pelog_melodic               0.3558   111.205     0.183    0.0032    -0.513
-pelog_spectral              0.3328   165.964     0.163    0.0020    -0.360
-slendro_layered             0.4882   182.930     0.123    0.0027     0.317
-slendro_alternating         0.3006   140.360     0.230    0.0021    -0.118
-slendro_melodic             0.2111   183.281     0.225    0.0012    -0.089
-slendro_spectral            0.3462   168.308     0.168    0.0021    -0.405
+pelog_layered               0.5743   145.997     0.121    0.0039    -0.579
+pelog_alternating           0.2996   100.214     0.209    0.0030    -0.801
+pelog_melodic               0.2820   111.656     0.164    0.0025    -0.535
+pelog_spectral              0.2252   166.831     0.157    0.0014    -0.459
+slendro_layered             0.3996   181.076     0.118    0.0022    -0.020
+slendro_alternating         0.2599   139.309     0.223    0.0019    -0.305
+slendro_melodic             0.1834   185.048     0.196    0.0010    -0.377
+slendro_spectral            0.2232   168.434     0.168    0.0013    -0.524
 
 
 COMPARISON BY SCALE FAMILY
 ----------------------------------------------------------------------------------------------------
 
 Pelog (n=4):
-  Average Area [norm²]:            0.3756
-  Average Path Length [norm]:     130.940
-  Average Revisit Rate [-]:         0.176
-  Average Correlation [-]:         -0.558
+  Average Area [norm²]:            0.3453
+  Average Path Length [norm]:     131.174
+  Average Revisit Rate [-]:         0.163
+  Average Correlation [-]:         -0.594
 
 Slendro (n=4):
-  Average Area [norm²]:            0.3365
-  Average Path Length [norm]:     168.720
-  Average Revisit Rate [-]:         0.187
-  Average Correlation [-]:         -0.074
+  Average Area [norm²]:            0.2665
+  Average Path Length [norm]:     168.467
+  Average Revisit Rate [-]:         0.176
+  Average Correlation [-]:         -0.307
 
 COMPARISON BY COMPOSITION TYPE
 ----------------------------------------------------------------------------------------------------
 
 Layered (n=2):
-  Average Area [norm²]:               0.5086
+  Average Area [norm²]:               0.4869
   Average Exploration Index [norm]:   0.0031
-  Average Revisit Rate [-]:            0.121
+  Average Revisit Rate [-]:            0.119
 
 Alternating (n=2):
-  Average Area [norm²]:               0.2928
-  Average Exploration Index [norm]:   0.0025
-  Average Revisit Rate [-]:            0.235
+  Average Area [norm²]:               0.2797
+  Average Exploration Index [norm]:   0.0024
+  Average Revisit Rate [-]:            0.216
 
 Melodic (n=2):
-  Average Area [norm²]:               0.2834
-  Average Exploration Index [norm]:   0.0022
-  Average Revisit Rate [-]:            0.204
+  Average Area [norm²]:               0.2327
+  Average Exploration Index [norm]:   0.0018
+  Average Revisit Rate [-]:            0.180
 
 Spectral (n=2):
-  Average Area [norm²]:               0.3395
-  Average Exploration Index [norm]:   0.0020
-  Average Revisit Rate [-]:            0.166
+  Average Area [norm²]:               0.2242
+  Average Exploration Index [norm]:   0.0013
+  Average Revisit Rate [-]:            0.163
 
 
 ====================================================================================================
@@ -85,21 +85,21 @@ DETAILED MODE PROFILES
 MODE: PELOG_LAYERED
 ----------------------------------------------------------------------------------------------------
 Phase Space Coverage:
-  Area (convex hull) [norm²]:     0.529067
-  Path Length [norm]:              146.759
-  Exploration Index [norm]:       0.003605
+  Area (convex hull) [norm²]:     0.574297
+  Path Length [norm]:              145.997
+  Exploration Index [norm]:       0.003934
 
 Trajectory Centroid [normalized]:
-  Brightness:                     0.302081
-  Energy:                         0.620700
+  Brightness:                     0.283165
+  Energy:                         0.621197
 
 Trajectory Spread [normalized]:
-  Brightness (std):               0.115162
-  Energy (std):                   0.160390
+  Brightness (std):               0.131371
+  Energy (std):                   0.165049
 
 Dynamical Properties:
-  Brightness-Energy Corr [-]:    -0.567576 (p=0.000000)
-  Revisit Rate [-]:               0.118967
+  Brightness-Energy Corr [-]:    -0.579280 (p=0.000000)
+  Revisit Rate [-]:               0.120714
 
 Interpretation:
   Coverage:    Large - Explores wide range of musical states
@@ -109,21 +109,21 @@ Interpretation:
 MODE: PELOG_ALTERNATING
 ----------------------------------------------------------------------------------------------------
 Phase Space Coverage:
-  Area (convex hull) [norm²]:     0.284930
-  Path Length [norm]:               99.834
-  Exploration Index [norm]:       0.002854
+  Area (convex hull) [norm²]:     0.299560
+  Path Length [norm]:              100.214
+  Exploration Index [norm]:       0.002989
 
 Trajectory Centroid [normalized]:
-  Brightness:                     0.236379
-  Energy:                         0.386797
+  Brightness:                     0.221721
+  Energy:                         0.379371
 
 Trajectory Spread [normalized]:
-  Brightness (std):               0.119714
-  Energy (std):                   0.102674
+  Brightness (std):               0.140353
+  Energy (std):                   0.103676
 
 Dynamical Properties:
-  Brightness-Energy Corr [-]:    -0.790068 (p=0.000000)
-  Revisit Rate [-]:               0.239987
+  Brightness-Energy Corr [-]:    -0.801217 (p=0.000000)
+  Revisit Rate [-]:               0.209438
 
 Interpretation:
   Coverage:    Large - Explores wide range of musical states
@@ -133,21 +133,21 @@ Interpretation:
 MODE: PELOG_MELODIC
 ----------------------------------------------------------------------------------------------------
 Phase Space Coverage:
-  Area (convex hull) [norm²]:     0.355791
-  Path Length [norm]:              111.205
-  Exploration Index [norm]:       0.003199
+  Area (convex hull) [norm²]:     0.282042
+  Path Length [norm]:              111.656
+  Exploration Index [norm]:       0.002526
 
 Trajectory Centroid [normalized]:
-  Brightness:                     0.140289
-  Energy:                         0.537106
+  Brightness:                     0.117421
+  Energy:                         0.523057
 
 Trajectory Spread [normalized]:
-  Brightness (std):               0.055618
-  Energy (std):                   0.093978
+  Brightness (std):               0.060200
+  Energy (std):                   0.111068
 
 Dynamical Properties:
-  Brightness-Energy Corr [-]:    -0.513128 (p=0.000000)
-  Revisit Rate [-]:               0.182728
+  Brightness-Energy Corr [-]:    -0.534519 (p=0.000000)
+  Revisit Rate [-]:               0.163803
 
 Interpretation:
   Coverage:    Large - Explores wide range of musical states
@@ -157,21 +157,21 @@ Interpretation:
 MODE: PELOG_SPECTRAL
 ----------------------------------------------------------------------------------------------------
 Phase Space Coverage:
-  Area (convex hull) [norm²]:     0.332780
-  Path Length [norm]:              165.964
-  Exploration Index [norm]:       0.002005
+  Area (convex hull) [norm²]:     0.225235
+  Path Length [norm]:              166.831
+  Exploration Index [norm]:       0.001350
 
 Trajectory Centroid [normalized]:
-  Brightness:                     0.313665
-  Energy:                         0.353602
+  Brightness:                     0.299684
+  Energy:                         0.353635
 
 Trajectory Spread [normalized]:
-  Brightness (std):               0.057649
-  Energy (std):                   0.100347
+  Brightness (std):               0.059617
+  Energy (std):                   0.105988
 
 Dynamical Properties:
-  Brightness-Energy Corr [-]:    -0.359973 (p=0.000000)
-  Revisit Rate [-]:               0.163253
+  Brightness-Energy Corr [-]:    -0.459125 (p=0.000000)
+  Revisit Rate [-]:               0.156729
 
 Interpretation:
   Coverage:    Large - Explores wide range of musical states
@@ -181,98 +181,98 @@ Interpretation:
 MODE: SLENDRO_LAYERED
 ----------------------------------------------------------------------------------------------------
 Phase Space Coverage:
-  Area (convex hull) [norm²]:     0.488157
-  Path Length [norm]:              182.930
-  Exploration Index [norm]:       0.002669
+  Area (convex hull) [norm²]:     0.399584
+  Path Length [norm]:              181.076
+  Exploration Index [norm]:       0.002207
 
 Trajectory Centroid [normalized]:
-  Brightness:                     0.537245
-  Energy:                         0.664826
+  Brightness:                     0.532004
+  Energy:                         0.649657
 
 Trajectory Spread [normalized]:
-  Brightness (std):               0.074228
-  Energy (std):                   0.141344
+  Brightness (std):               0.063081
+  Energy (std):                   0.137044
 
 Dynamical Properties:
-  Brightness-Energy Corr [-]:     0.316880 (p=0.000000)
-  Revisit Rate [-]:               0.123182
+  Brightness-Energy Corr [-]:    -0.020301 (p=0.038798)
+  Revisit Rate [-]:               0.117792
 
 Interpretation:
   Coverage:    Large - Explores wide range of musical states
   Pattern:     Low revisit - Progressive, non-repeating
-  Coupling:    Moderate - Some coordination between dimensions
+  Coupling:    Weak - Independent variation in brightness and energy
 
 MODE: SLENDRO_ALTERNATING
 ----------------------------------------------------------------------------------------------------
 Phase Space Coverage:
-  Area (convex hull) [norm²]:     0.300576
-  Path Length [norm]:              140.360
-  Exploration Index [norm]:       0.002141
+  Area (convex hull) [norm²]:     0.259938
+  Path Length [norm]:              139.309
+  Exploration Index [norm]:       0.001866
 
 Trajectory Centroid [normalized]:
-  Brightness:                     0.299995
-  Energy:                         0.337961
+  Brightness:                     0.308178
+  Energy:                         0.332350
 
 Trajectory Spread [normalized]:
-  Brightness (std):               0.068601
-  Energy (std):                   0.071479
+  Brightness (std):               0.067441
+  Energy (std):                   0.068062
 
 Dynamical Properties:
-  Brightness-Energy Corr [-]:    -0.118083 (p=0.000000)
-  Revisit Rate [-]:               0.229515
-
-Interpretation:
-  Coverage:    Large - Explores wide range of musical states
-  Pattern:     Moderate revisit - Some recurring elements
-  Coupling:    Weak - Independent variation in brightness and energy
-
-MODE: SLENDRO_MELODIC
-----------------------------------------------------------------------------------------------------
-Phase Space Coverage:
-  Area (convex hull) [norm²]:     0.211083
-  Path Length [norm]:              183.281
-  Exploration Index [norm]:       0.001152
-
-Trajectory Centroid [normalized]:
-  Brightness:                     0.369435
-  Energy:                         0.234755
-
-Trajectory Spread [normalized]:
-  Brightness (std):               0.071893
-  Energy (std):                   0.045738
-
-Dynamical Properties:
-  Brightness-Energy Corr [-]:    -0.089015 (p=0.000000)
-  Revisit Rate [-]:               0.225316
-
-Interpretation:
-  Coverage:    Large - Explores wide range of musical states
-  Pattern:     Moderate revisit - Some recurring elements
-  Coupling:    Weak - Independent variation in brightness and energy
-
-MODE: SLENDRO_SPECTRAL
-----------------------------------------------------------------------------------------------------
-Phase Space Coverage:
-  Area (convex hull) [norm²]:     0.346225
-  Path Length [norm]:              168.308
-  Exploration Index [norm]:       0.002057
-
-Trajectory Centroid [normalized]:
-  Brightness:                     0.315286
-  Energy:                         0.362735
-
-Trajectory Spread [normalized]:
-  Brightness (std):               0.059504
-  Energy (std):                   0.096540
-
-Dynamical Properties:
-  Brightness-Energy Corr [-]:    -0.404805 (p=0.000000)
-  Revisit Rate [-]:               0.168483
+  Brightness-Energy Corr [-]:    -0.305398 (p=0.000000)
+  Revisit Rate [-]:               0.223128
 
 Interpretation:
   Coverage:    Large - Explores wide range of musical states
   Pattern:     Moderate revisit - Some recurring elements
   Coupling:    Moderate - Some coordination between dimensions
+
+MODE: SLENDRO_MELODIC
+----------------------------------------------------------------------------------------------------
+Phase Space Coverage:
+  Area (convex hull) [norm²]:     0.183362
+  Path Length [norm]:              185.048
+  Exploration Index [norm]:       0.000991
+
+Trajectory Centroid [normalized]:
+  Brightness:                     0.370458
+  Energy:                         0.222754
+
+Trajectory Spread [normalized]:
+  Brightness (std):               0.086279
+  Energy (std):                   0.049402
+
+Dynamical Properties:
+  Brightness-Energy Corr [-]:    -0.377005 (p=0.000000)
+  Revisit Rate [-]:               0.195760
+
+Interpretation:
+  Coverage:    Large - Explores wide range of musical states
+  Pattern:     Moderate revisit - Some recurring elements
+  Coupling:    Moderate - Some coordination between dimensions
+
+MODE: SLENDRO_SPECTRAL
+----------------------------------------------------------------------------------------------------
+Phase Space Coverage:
+  Area (convex hull) [norm²]:     0.223187
+  Path Length [norm]:              168.434
+  Exploration Index [norm]:       0.001325
+
+Trajectory Centroid [normalized]:
+  Brightness:                     0.309872
+  Energy:                         0.348129
+
+Trajectory Spread [normalized]:
+  Brightness (std):               0.060263
+  Energy (std):                   0.106149
+
+Dynamical Properties:
+  Brightness-Energy Corr [-]:    -0.524104 (p=0.000000)
+  Revisit Rate [-]:               0.168385
+
+Interpretation:
+  Coverage:    Large - Explores wide range of musical states
+  Pattern:     Moderate revisit - Some recurring elements
+  Coupling:    Strong negative - Brightness and energy move together
 
 ====================================================================================================
 UNITS SUMMARY

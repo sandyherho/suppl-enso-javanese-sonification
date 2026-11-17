@@ -1,7 +1,7 @@
 ================================================================================
 ENSO NINO 3.4 INDEX - COMPREHENSIVE DESCRIPTIVE STATISTICS
 ================================================================================
-Generated: 2025-10-12 03:10:37
+Generated: 2026-11-18 03:07:30
 Authors: Sandy H. S. Herho, Rusmawan Suwarman, Edi Riawan, Nurjanna J. Trilaksono
 Institution: Weather and Climate Prediction Laboratory (WCPL) ITB
 ================================================================================
@@ -9,16 +9,16 @@ Institution: Weather and Climate Prediction Laboratory (WCPL) ITB
 DATASET PERIOD
 --------------------------------------------------------------------------------
 Start Date:    January 1870
-End Date:      December 2024
-Total Months:  1860
-Total Years:   155.0
+End Date:      July 2026
+Total Months:  1879
+Total Years:   156.6
 
 CENTRAL TENDENCY AND DISPERSION
 --------------------------------------------------------------------------------
-Mean:           -0.0984 C
+Mean:           -0.0973 C
 Median:         -0.1600 C
-Std Deviation:   0.7747 C
-Variance:        0.6001 C^2
+Std Deviation:   0.7737 C
+Variance:        0.5986 C^2
 Range:           5.0600 C
 
 EXTREME VALUES
@@ -30,40 +30,40 @@ PERCENTILE DISTRIBUTION
 --------------------------------------------------------------------------------
  5th percentile:  -1.2400 C
 10th percentile:  -1.0200 C
-25th percentile:  -0.6400 C
+25th percentile:  -0.6300 C
 50th percentile:  -0.1600 C
 75th percentile:   0.3500 C
-90th percentile:   0.9110 C
-95th percentile:   1.3300 C
-IQR (Q3-Q1):       0.9900 C
+90th percentile:   0.9120 C
+95th percentile:   1.3310 C
+IQR (Q3-Q1):       0.9800 C
 
 DISTRIBUTION SHAPE
 --------------------------------------------------------------------------------
-Skewness:        0.4739
-Kurtosis:        0.3819
+Skewness:        0.4796
+Kurtosis:        0.3935
 
 ENSO PHASE STATISTICS
 --------------------------------------------------------------------------------
 
 El Nino (>= 0.5 C):
-  Months:           377 (20.27%)
-  Mean:            1.0508 C
+  Months:           380 (20.22%)
+  Mean:            1.0532 C
   Maximum:         2.5700 C
 
 La Nina (<= -0.5 C):
-  Months:           597 (32.10%)
-  Mean:           -0.9167 C
+  Months:           601 (31.99%)
+  Mean:           -0.9147 C
   Minimum:        -2.4900 C
 
 Neutral (-0.5 to 0.5 C):
-  Months:           886 (47.63%)
+  Months:           898 (47.79%)
 
 
 ================================================================================
 EXTREME EVENTS LISTING
 ================================================================================
 
-STRONG EL NIÑO EVENTS (>= 1.5 C): 61 occurrences
+STRONG EL NIÑO EVENTS (>= 1.5 C): 62 occurrences
 --------------------------------------------------------------------------------
 Date            Value (C)    Category            
 --------------------------------------------------------------------------------
@@ -128,6 +128,7 @@ October 2023       1.590     Moderate El Niño
 November 2023      2.010     Strong El Niño      
 December 2023      1.810     Moderate El Niño    
 January 2024       1.710     Moderate El Niño    
+July 2026          1.900     Moderate El Niño    
 
 STRONG LA NIÑA EVENTS (<= -1.5 C): 40 occurrences
 --------------------------------------------------------------------------------
@@ -179,7 +180,7 @@ January 2011      -1.700     Moderate La Niña
 ENSO EPISODES (3+ consecutive months above/below threshold)
 ================================================================================
 
-EL NIÑO EPISODES: 43
+EL NIÑO EPISODES: 44
 --------------------------------------------------------------------------------
 Start        End          Duration   Peak       Mean      
 Date         Date         (months)   (C)        (C)       
@@ -227,6 +228,7 @@ Apr 2015     Apr 2016     13            2.570     1.794
 Oct 2018     Jun 2019     9             1.000     0.743
 Oct 2019     Jan 2020     4             0.740     0.610
 Jun 2023     Apr 2024     11            2.010     1.453
+May 2026     Jul 2026     3             1.900     1.357
 
 LA NIÑA EPISODES: 57
 --------------------------------------------------------------------------------
@@ -293,14 +295,14 @@ Sep 2021     Feb 2023     18           -1.070    -0.822
 
 RATE OF CHANGE STATISTICS (Month-to-Month)
 --------------------------------------------------------------------------------
-Mean ROC:        0.0002 C/month
+Mean ROC:        0.0015 C/month
 Std Dev ROC:     0.2986 C/month
 Max Increase:    1.1300 C/month on December 1939
 Max Decrease:   -1.2400 C/month on December 1889
 
 TEMPORAL CHARACTERISTICS
 --------------------------------------------------------------------------------
-Lag-1 Autocorrelation: 0.9257
+Lag-1 Autocorrelation: 0.9254
 
 ================================================================================
 END OF DESCRIPTIVE STATISTICS
